@@ -1,6 +1,6 @@
 # CarGoBook
 
-![CarGoBook Logo](https://example.com/car_booking_logo.png)
+![CarGoBook Logo](https://raw.githubusercontent.com/nikhiltaprania/main-brake-9977/main/CarGoBook.png?token=GHSAT0AAAAAACDNMRTNXPW6YWTS44S675H2ZF6B6TA)
 
 The Car Booking Portal is an online platform designed to facilitate the process of booking cars for users. The portal provides users with the ability to register, log in, and browse available cars. Users can apply filters and sorting options to refine their search for car details. They can also book a car and view the status of their bookings. Additionally, an admin user has additional functionalities to manage car details, confirm or reject car bookings, and generate reports on bookings.
 
@@ -33,13 +33,13 @@ The Car Booking Portal is an online platform designed to facilitate the process 
 
 ## Project Structure
 
-car-booking-portal/
+```CarGoBook/
 ├── src/
 │ ├── main/
 │ │ ├── java/
 │ │ │ └── com/
-│ │ │ └── carbookingportal/
-│ │ │ ├── domain/
+│ │ │ └── cargobook/
+│ │ │ ├── model/
 │ │ │ │ ├── Car.java
 │ │ │ │ ├── User.java
 │ │ │ │ ├── Booking.java
@@ -69,7 +69,7 @@ car-booking-portal/
 │ └── TestCases.java
 ├── pom.xml
 ├── LICENSE
-└── README.md
+└── README.md```
 
 
 ## Usage
