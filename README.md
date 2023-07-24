@@ -67,9 +67,9 @@ The Car Booking Portal is an online platform designed to facilitate the process 
 
 ```
 
-One User can have multiple Bookings (One-to-Many relationship)
-One Car can have multiple Bookings (One-to-Many relationship)
-One Admin can generate multiple Reports (One-to-Many relationship)
+- One User can have multiple Bookings (One-to-Many relationship)
+- One Car can have multiple Bookings (One-to-Many relationship)
+- One Admin can generate multiple Reports (One-to-Many relationship)
 
 ## Project Structure
 
