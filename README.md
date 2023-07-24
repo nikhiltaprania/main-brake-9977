@@ -31,6 +31,46 @@ The Car Booking Portal is an online platform designed to facilitate the process 
 3. Run the Maven project to build and deploy the application.
 4. Launch the application and access it via the provided URL.
 
+## ER Diagram
+
+```
+  +---------+          +----------+          +---------+
+  |  User   |          |   Car    |          | Booking |
+  +---------+          +----------+          +---------+
+  | user_id |◄--------►|  car_id  |◄--------►|booking_id|
+  | username|          |car_model |          | user_id |
+  | email   |          |  brand   |          | car_id  |
+  | password|          |  price   |          |booking_date|
+  | reg_date|          |availabil.|          |  status |
+  +---------+          +----------+          +---------+
+       ▲                                     
+       |                                     
+  +---------+                               
+  |  Admin  |                               
+  +---------+                               
+  |admin_id |                               
+  |username |                               
+  |email    |                               
+  |password |                               
+  +---------+                               
+       ▲                                     
+       |                                     
+  +---------+                               
+  |  Report |                               
+  +---------+                               
+  |report_id|                               
+  |rep_date |                               
+  |total_bks|                               
+  |total_rev|                               
+  +---------+                               
+
+
+```
+
+One User can have multiple Bookings (One-to-Many relationship)
+One Car can have multiple Bookings (One-to-Many relationship)
+One Admin can generate multiple Reports (One-to-Many relationship)
+
 ## Project Structure
 
 ```CarGoBook/
